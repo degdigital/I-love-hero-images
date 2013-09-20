@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: I love hero images.
+Plugin Name: I love hero images
 Description: Simple custom post type meant for use in your theme.
 Version: 1.0.0
 Author: DEG
@@ -10,5 +10,5 @@ License URI:
 */
 
 require_once( plugin_dir_path( __FILE__ ) . 'class-love-hero-images.php' );
-require_once( plugin_dir_path( __FILE__ ) . 'class-love-hero-image-meta.php' );
-require_once( plugin_dir_path( __FILE__ ) . 'love-hero-image-meta.php' );
+require_once( plugin_dir_path( __FILE__ ) . 'class-love-hero-images-meta.php' );
+require_once( plugin_dir_path( __FILE__ ) . 'love-hero-images-meta-functions.php' );

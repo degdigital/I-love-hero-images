@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: I love hero images.
-Description: Simple custom post type meant for use in your theme. Done.
+Description: Simple custom post type meant for use in your theme.
 Version: 1.0.0
-Author: Scott Lee
-Author URI: http://scottlee.me
+Author: DEG
+Author URI: http://www.degdigital.com
 License: GPL-2.0+
 License URI: 
 */

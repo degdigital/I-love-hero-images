@@ -10,4 +10,5 @@ License URI:
 */
 
 require_once( plugin_dir_path( __FILE__ ) . 'class-love-hero-images.php' );
+require_once( plugin_dir_path( __FILE__ ) . 'class-love-hero-image-meta.php' );
 require_once( plugin_dir_path( __FILE__ ) . 'love-hero-image-meta.php' );

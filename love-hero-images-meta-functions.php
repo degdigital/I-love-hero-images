@@ -45,6 +45,16 @@ function love_hero_image_metaboxes() {
                 )
             ),
             array(
+                'name'    => 'Overlay Text Color',
+                'id'      => $prefix . 'overlay_color',
+                'type'    => 'radio_inline',
+                'options' => array(
+                    array( 'name' => '<img src="http://placehold.it/100x50/FF0000/000&text=Red" />', 'value' => 'Red', ),
+                    array( 'name' => '<img src="http://placehold.it/100x50/0000FF/000&text=Blue" />', 'value' => 'Blue', ),
+                    array( 'name' => '<img src="http://placehold.it/100x50/FFFF00/000&text=Yellow" />', 'value' => 'Yellow', ),
+                )
+            ),
+            array(
                 'name' => 'Button Text',
                 'id' => $prefix . 'button_text',
                 'type' => 'text_medium'

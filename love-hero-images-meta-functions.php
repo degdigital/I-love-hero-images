@@ -44,6 +44,16 @@ function love_hero_image_metaboxes() {
                     array('name' => 'Right', 'value' => 'right')
                 )
             ),
+            array(
+                'name' => 'Button Text',
+                'id' => $prefix . 'button_text',
+                'type' => 'text_medium'
+            ),
+            array(
+                'name' => 'Button URL',
+                'id' => $prefix . 'button_url',
+                'type' => 'text'
+            ),
         ),
     );
 

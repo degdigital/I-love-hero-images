@@ -4,7 +4,7 @@
  */
 function love_initialize_hero_image_meta_boxes() {
     if ( !class_exists( 'cmb_Meta_Box' ) ) {
-        require_once( 'lib/cmb/init.php' );
+        require_once( 'cmb/init.php' );
     }
 }
 

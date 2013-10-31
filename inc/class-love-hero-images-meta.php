@@ -1,9 +1,7 @@
 <?php
 class Hero_Meta {
-    function __construct() {
-        global $post;
-        $this->page_meta = get_post_meta($post->ID);
-        $this->postid = $post->ID;
+    function __construct($id) {
+        $this->page_meta = get_post_meta( $id );
         $this->prefix = '_hero_';
     }
     public function get( $field = '' ) {

@@ -49,16 +49,15 @@ class Love_Hero_images {
     }
 
     public function custom_hero_image_edit_icon() {
-        if ( isset( $_REQUEST['post_type'] ) ) {
-            global $post_type; ?>
+        global $post;
+        $post_type = $post->post_type; ?>
 
-            <style>
-                <?php if ( ($_GET['post_type'] == 'hero_image') ) : ?>
-                #icon-edit { background:transparent url( <?php echo plugin_dir_url( __FILE__ ) . '/images/hero_image-menu-large.png'; ?> ) no-repeat; }
-                <?php endif; ?>
-            </style>
+        <style>
+            <?php if ( $post_type == 'hero_image') : ?>
+            #icon-edit { background:transparent url( <?php echo plugin_dir_url( __FILE__ ) . '/images/hero_image-menu-large.png'; ?> ) no-repeat; }
+            <?php endif; ?>
+        </style>
     <?php }
-    }
 }
 
 $hero_images = new Love_Hero_images();

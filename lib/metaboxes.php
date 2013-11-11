@@ -10,7 +10,7 @@ function love_initialize_hero_image_meta_boxes() {
 
 add_action( 'init', 'love_initialize_hero_image_meta_boxes', 9999 );
 
-function love_hero_image_metaboxes() {
+function love_hero_image_metaboxes( array $meta_boxes ) {
     $prefix = '_hero_';
 
     $meta_boxes[] = array(

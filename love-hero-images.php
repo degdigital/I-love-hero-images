@@ -10,7 +10,7 @@ License URI:
 */
 
 require_once( plugin_dir_path( __FILE__ ) . 'class-love-hero-images.php' );
-require_once( plugin_dir_path( __FILE__ ) . '/lib/aq_resizer.php' );
-require_once( plugin_dir_path( __FILE__ ) . '/lib/meta-boxes.php' );
-require_once( plugin_dir_path( __FILE__ ) . '/inc/class-love-hero-images-meta.php' );
-require_once( plugin_dir_path( __FILE__ ) . '/inc/meta-functions.php' );
+require_once( plugin_dir_path( __FILE__ ) . 'lib/aq_resizer.php' );
+require_once( plugin_dir_path( __FILE__ ) . 'lib/metaboxes.php' );
+require_once( plugin_dir_path( __FILE__ ) . 'inc/class-love-hero-images-meta.php' );
+require_once( plugin_dir_path( __FILE__ ) . 'inc/meta-functions.php' );

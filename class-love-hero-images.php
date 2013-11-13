@@ -50,14 +50,16 @@ class Love_Hero_images {
 
     public function custom_hero_image_edit_icon() {
         global $post;
-        $post_type = $post->post_type; ?>
+        $post_type = ( isset($post->post_type) ) ? $post->post_type : '';
+        $request = ( isset($_REQUEST['post_type']) ) ? $_REQUEST['post_type'] : '';
+        ?>
 
         <style>
-            <?php if ( $post_type == 'hero_image') : ?>
+            <?php if ( ($post_type || $request) == 'hero_image' ) : ?>
             #icon-edit { background:transparent url( <?php echo plugin_dir_url( __FILE__ ) . '/images/hero_image-menu-large.png'; ?> ) no-repeat; }
             <?php endif; ?>
         </style>
-    <?php }
+<?php }
 }
 
 $hero_images = new Love_Hero_images();
